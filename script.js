@@ -1,5 +1,5 @@
-function afficherProblem (type, message){
-	alert("type: " + type + " problem: " + message); 
+function afficherProblem (){
+	alert("Zone interdite"); 
 }
 
-document.getElementById("zone-danger").addEventlistener("click", afficherProblem("zone interdire","ne pas cliquer ici !!));
+document.getElementById("zone-danger").addEventListener("click", afficherProblem);
