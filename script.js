@@ -1,3 +1,4 @@
 function afficherProblem (type, message){
-	alert("type: " + text + " problem: " + message); 
+	alert("type: " + type + " problem: " + message); 
 }
+
